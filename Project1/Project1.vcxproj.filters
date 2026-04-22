@@ -96,5 +96,20 @@
     <ClCompile Include="华氏度转摄氏度.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\HONOR Share\Honor Share\累加.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="n分之1累加.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="求1到n中能被3和7整除的和.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="金字塔.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="兔子繁殖问题.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -2,5 +2,6 @@
 #pragma warning(disable:6031)
 int main()
 {
-	huashizhuansheshi();
+	shengchesuzi();
+	return 0;
 }

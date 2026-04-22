@@ -2,10 +2,10 @@
 #pragma warning(disable:6031)
 #include<stdio.h>
 #include<math.h>
-int main12()
+int panduanshuixianhuasu(int a)
 {
-	int a,b,c,d;
-	scanf("%d",&a);
+	int b,c,d;
+	//scanf("%d",&a);
 	d = a;
 	b = a / 100;
 	a = a - b * 100;
@@ -13,9 +13,17 @@ int main12()
 	a = a - c * 10;
 	
 	if (pow(b, 3) + pow(c, 3) + pow(a, 3)==d)
-		printf("%d是水仙花数", d);
-	else
-		printf("%d不是水仙花数", d);
+		printf("%d是水仙花数\n", d);
+	/*else
+		printf("%d不是水仙花数", d);*/
 	return 0;
 
+}
+int shengchesuzi()
+{
+	int a;
+	for (a = 100; a < 1000; a++)
+	{
+		panduanshuixianhuasu(a);
+	}
 }
