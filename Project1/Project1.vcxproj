@@ -139,10 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\HONOR Share\Honor Share\累加.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="n分之1累加.c" />
     <ClCompile Include="九九乘法表.c" />
+    <ClCompile Include="交换排序.c" />
     <ClCompile Include="兔子繁殖问题.c" />
     <ClCompile Include="判断是否为偶数.c" />
     <ClCompile Include="华氏度转摄氏度.c" />
@@ -151,6 +151,7 @@
     <ClCompile Include="求sinx的近似值.c" />
     <ClCompile Include="源1.c" />
     <ClCompile Include="猴子吃桃.c" />
+    <ClCompile Include="累加1.c" />
     <ClCompile Include="解二次方程.c" />
     <ClCompile Include="金字塔.c" />
     <ClCompile Include="长方形周长计算.c" />

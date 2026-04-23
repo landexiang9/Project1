@@ -96,9 +96,6 @@
     <ClCompile Include="华氏度转摄氏度.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\HONOR Share\Honor Share\累加.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="n分之1累加.c">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -109,6 +106,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="兔子繁殖问题.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="交换排序.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="累加1.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
