@@ -114,5 +114,11 @@
     <ClCompile Include="累加1.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="冒泡排序.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="输入二十个成绩并排序.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

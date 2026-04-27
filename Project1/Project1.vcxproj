@@ -144,6 +144,7 @@
     <ClCompile Include="九九乘法表.c" />
     <ClCompile Include="交换排序.c" />
     <ClCompile Include="兔子繁殖问题.c" />
+    <ClCompile Include="冒泡排序.c" />
     <ClCompile Include="判断是否为偶数.c" />
     <ClCompile Include="华氏度转摄氏度.c" />
     <ClCompile Include="找出一百以内能被7整除的数.c" />
@@ -153,6 +154,7 @@
     <ClCompile Include="猴子吃桃.c" />
     <ClCompile Include="累加1.c" />
     <ClCompile Include="解二次方程.c" />
+    <ClCompile Include="输入二十个成绩并排序.c" />
     <ClCompile Include="金字塔.c" />
     <ClCompile Include="长方形周长计算.c" />
     <ClCompile Include="源.cpp" />
