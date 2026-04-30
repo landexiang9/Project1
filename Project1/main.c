@@ -2,6 +2,6 @@
 #pragma warning(disable:6031)
 int main()
 {
-	jiaohuanpaixu();
+	panduanhuiwenchuang();
 	return 0;
 }

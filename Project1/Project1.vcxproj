@@ -42,7 +42,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -147,6 +147,7 @@
     <ClCompile Include="冒泡排序.c" />
     <ClCompile Include="判断是否为偶数.c" />
     <ClCompile Include="华氏度转摄氏度.c" />
+    <ClCompile Include="回文串判断.c" />
     <ClCompile Include="找出一百以内能被7整除的数.c" />
     <ClCompile Include="求1到n中能被3和7整除的和.c" />
     <ClCompile Include="求sinx的近似值.c" />
