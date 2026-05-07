@@ -1,10 +1,12 @@
 int leijia()
 {
-    int n, count = 0, s;
-    printf("请输入一个整数: ");
+    int n, count = 0, s,a;
+    printf("请输入累加的第一个数：");
+    scanf("%d", &a);
+    printf("请输入累加后的数: ");
     scanf("%d", &n);
     s = n;
-    while (n > 0)
+    while (n > a)
     {
         count = count + n;
 
@@ -17,6 +19,6 @@ int leijia()
         n = n - 1;
     }
     printf("=%d", count);
-    return 0;
+    return count;
 
 }

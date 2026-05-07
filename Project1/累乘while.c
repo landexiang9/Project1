@@ -1,12 +1,12 @@
 #define _CRT_SECURE_NO_WARNINGS  1
 #pragma warning(disable:6031)
 #include<stdio.h>
-int coutcheng()
+double coutcheng(int n)
 {
-	int n = 0, i = 1;
-	long long fact = 1;
-	printf("请输入累乘的次数");
-	scanf("%d", &n);
+	int i = 1;
+	double fact = 1;
+	//printf("请输入累乘的次数");
+	//scanf("%d", &n);
 	if (n > 0)
 	{
 		while (i <= n)
@@ -14,8 +14,9 @@ int coutcheng()
 			fact = fact * i;
 			i = i + 1;
 		}
-		printf("累乘的结果为%lld", fact);
+		//printf("累乘的结果为%lf", fact);
 	}
 	else
-		printf("请输入大于零的整数");
+		//printf("请输入大于零的整数");
+	return fact;
 }

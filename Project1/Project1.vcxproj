@@ -151,10 +151,12 @@
     <ClCompile Include="找出一百以内能被7整除的数.c" />
     <ClCompile Include="求1到n中能被3和7整除的和.c" />
     <ClCompile Include="求sinx的近似值.c" />
+    <ClCompile Include="求圆柱表面积和体积.c" />
     <ClCompile Include="源1.c" />
     <ClCompile Include="猴子吃桃.c" />
     <ClCompile Include="累加1.c" />
     <ClCompile Include="解二次方程.c" />
+    <ClCompile Include="计算x的n次方除以n的阶乘之和.c" />
     <ClCompile Include="输入二十个成绩并排序.c" />
     <ClCompile Include="金字塔.c" />
     <ClCompile Include="长方形周长计算.c" />

@@ -123,5 +123,11 @@
     <ClCompile Include="回文串判断.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="计算x的n次方除以n的阶乘之和.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="求圆柱表面积和体积.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
