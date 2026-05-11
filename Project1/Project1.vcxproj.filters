@@ -108,7 +108,7 @@
     <ClCompile Include="兔子繁殖问题.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="交换排序.c">
+    <ClCompile Include="交换排序1.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="累加1.c">
@@ -127,6 +127,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="求圆柱表面积和体积.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="输入多个值并将其按大小排序并输出.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="交换排序调用.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -4,6 +4,6 @@
 #include<math.h>
 int main()
 {
-	qiuyuanmianjihebiaomianji();
+	kongzhi();
 	return 0;
 }
