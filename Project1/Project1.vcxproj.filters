@@ -135,5 +135,14 @@
     <ClCompile Include="交换排序调用.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\HONOR Share\Honor Share\判断单词个数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\HONOR Share\Honor Share\输入10个整数排序.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\HONOR Share\Honor Share\杨辉三角.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

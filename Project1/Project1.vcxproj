@@ -42,7 +42,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -139,6 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="判断单词个数.c" />
+    <ClCompile Include="杨辉三角.c" />
+    <ClCompile Include="累加.c" />
+    <ClCompile Include="输入10个整数排序.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="n分之1累加.c" />
     <ClCompile Include="九九乘法表.c" />

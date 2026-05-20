@@ -4,6 +4,6 @@
 #include<math.h>
 int main()
 {
-	kongzhi();
+	panduandancigeshu();
 	return 0;
 }
