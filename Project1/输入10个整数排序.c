@@ -8,7 +8,7 @@ static void maopaoapixuyinyong()
     for (i = 0; i < 10; i++)
     {
         printf("请输入第%d个数: ", i + 1);
-        scanf_s("%d", &a[i]);
+        scanf("%d", &a[i]);
     }
     for (i = 0; i < 9; i++)
     {

@@ -1,6 +1,7 @@
 // 交换排序（降序），封装为可复用的函数
 #define _CRT_SECURE_NO_WARNINGS  1
 #pragma warning(disable:6031)
+#include<stdio.h>
 int jiaohuanpaixudiaoyong(int n, int a[])
 {
 	int  i, j, t;

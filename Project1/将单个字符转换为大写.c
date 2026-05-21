@@ -2,6 +2,9 @@
 #define _CRT_SECURE_NO_WARNINGS  1
 #pragma warning(disable:6031)
 #include<stdio.h>
+int an(char t);
+int bn(char s);
+
 int main14()
 {
 	char a;

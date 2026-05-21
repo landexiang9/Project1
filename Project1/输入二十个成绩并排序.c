@@ -1,6 +1,7 @@
 // 输入 20 个成绩，冒泡排序后输出最高分、最低分和平均分
 #define _CRT_SECURE_NO_WARNINGS  1
 #pragma warning(disable:6031)
+#include<stdio.h>
 void maopaoapixuyinyong()
 {
 	int i, j, t, a[20];

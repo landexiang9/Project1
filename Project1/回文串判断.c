@@ -5,16 +5,17 @@
 #include<stdio.h>
 void panduanhuiwenchuang()
 {
-	int a,t,n;
+	int t,n;
 	char c1[50], c2[50];
 	printf("请输入一个字符串");
-	a=gets(c1);
+	gets(c1);
 	n = strlen(c1)-1;
 	for (t = 0; n>= 0; n--)
 	{
 		c2[n]=c1[t];
 		t++;
 	}
+	c2[t] = '\0';
 	if (strcmp(c1, c2) == 0)
 	{
 		printf("same");

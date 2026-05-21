@@ -13,8 +13,6 @@ int tuzhifanzi()
 		printf("第%d个月份", m);
 		printf("%d只\n", c);
 	}
-	}
-	
 	
 
 
