@@ -10,11 +10,11 @@
 #include<math.h>
 
 /* 前向声明：声明在判断单词个数.c 中定义的函数 */
-int zliti84();
+int shichuyigeshudejueduizhi();
 
 int main()
 {
 	/* 调用统计单词个数的函数 */
-	liti84();
+	shichuyigeshudejueduizhi();
 	return 0;
 }

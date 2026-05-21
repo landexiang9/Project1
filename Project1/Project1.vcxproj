@@ -170,6 +170,7 @@
     <ClCompile Include="计算x的n次方除以n的阶乘之和.c" />
     <ClCompile Include="输入二十个成绩并排序.c" />
     <ClCompile Include="输入多个值并将其按大小排序并输出.c" />
+    <ClCompile Include="输出一个数的绝对值.c" />
     <ClCompile Include="金字塔.c" />
     <ClCompile Include="长方形周长计算.c" />
     <ClCompile Include="源.cpp" />
