@@ -14,9 +14,9 @@ int panduanshuixianhuasu(int a)
 	a = a - c * 10;
 	
 	if (b*b*b + c*c*c + a*a*a == d)
-		printf("%d��ˮ�ɻ���\n", d);
+		printf("%d是水仙花数\n", d);
 	/*else
-		printf("%d����ˮ�ɻ���", d);*/
+		printf("%d不是水仙花数", d);*/
 	return 0;
 
 }

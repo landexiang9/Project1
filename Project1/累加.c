@@ -3,7 +3,7 @@
 static int leijia()
 {
   int n, count=0 ,s;
-  printf("������һ������: ");
+  printf("锟斤拷锟斤拷锟斤拷一锟斤拷锟斤拷锟斤拷: ");
   scanf("%d",&n);
   s = n;
   while (n > 0)

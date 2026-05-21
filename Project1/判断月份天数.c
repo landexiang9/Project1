@@ -4,8 +4,8 @@
 #include<stdio.h>
 int main15()
 {
-	printf("���������ж�ϵͳ\n");
-	printf("�������������ж�����µ�����");
+	printf("智能天数判断系统\n");
+	printf("请输入年月以判断这个月的天数");
 	int y, m,d;
 	scanf("%d%d", &y, &m);
 	switch (m)
@@ -35,8 +35,8 @@ int main15()
 
 	}
 	if (d != 0)
-		printf("%d��ĵ�%d�·���%d��", y, m, d);
+		printf("%d年的第%d月份是%d天", y, m, d);
 	else
-		printf("��������ȷ���·�");
+		printf("请输入正确的月份");
 
 }

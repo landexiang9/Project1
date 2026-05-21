@@ -1,4 +1,4 @@
-// 判断一个整数的位数（使用 do-while、while、for 四种循环实现）
+// 判断整数位数（使用 do-while、while、for 四种循环实现）
 #define _CRT_SECURE_NO_WARNINGS  1
 #pragma warning(disable:6031)
 #include<stdio.h>
@@ -16,7 +16,7 @@ int numsize()
 		n = n / 10;
 		count = count + 1;
 	} while (n != 0);
-	printf("���� %ldΪ%d λ����",m,count);
+	printf("整数 %ld为%d 位整数",m,count);
 
 }
 
@@ -35,7 +35,7 @@ int whilenumsize()
 		n = n / 10;
 		count = count + 1;
 	}
-	printf("���� %ldΪ%d λ����", m, count);
+	printf("整数 %ld为%d 位整数", m, count);
 
 }
 
@@ -54,7 +54,7 @@ int fornumsize()
 		n = n / 10;
 		count = count + 1;
 		}
-	printf("���� %ldΪ%d λ����", m, count);
+	printf("整数 %ld为%d 位整数", m, count);
 
 }
 int lennumsize()
@@ -68,6 +68,6 @@ int lennumsize()
 	if (n < 0)
 		n = -n;
 	
-	printf("���� %ldΪ%d λ����", m, count);
+	printf("整数 %ld为%d 位整数", m, count);
 
 }

@@ -1,10 +1,10 @@
-// 判断一个字符串中的单词个数（以空格分隔）
+// 统计字符串中的单词个数（以空格分隔）
 #include<stdio.h>
 void panduandancigeshu()
 {
 	char str[100];
 	int i, count = 0;
-	printf("������һ���ַ���: ");
+	printf("请输入一个字符串: ");
 	gets(str);
 	for (i = 0; str[i] != '\0'; i++)
 	{
@@ -17,5 +17,5 @@ void panduandancigeshu()
 	{
 		count++;
 	}
-	printf("���ʵĸ���Ϊ: %d\n", count);
+	printf("单词的个数为: %d\n", count);
 }

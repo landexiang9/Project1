@@ -7,7 +7,7 @@ void maopaoapixu()
 	int i, j, t, a[10];
 	for (i = 0; i < 10; i++)
 	{
-		printf("�������%d���ɼ�", i + 1);
+		printf("请输入第%d个成绩", i + 1);
 		scanf("%d", &a[i]);
 
 	}

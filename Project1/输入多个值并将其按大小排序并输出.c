@@ -1,4 +1,4 @@
-// 输入 n 个值，调用交换排序函数按降序排序并输出
+// 输入 n 个值，调用交换排序函数降序排序后输出
 #define _CRT_SECURE_NO_WARNINGS  1
 #pragma warning(disable:6031)
 #include<stdio.h>

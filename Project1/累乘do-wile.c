@@ -6,7 +6,7 @@ int docoutcheng()
 {
 	int n = 0, i = 1;
 	long long fact = 1;
-	printf("�������۳˵Ĵ���");
+	printf("请输入累乘的次数");
 	scanf("%d", &n);
 	if (n > 0)
 	{
@@ -16,8 +16,8 @@ int docoutcheng()
 			i = i + 1;
 		}
 		while (i <= n);
-		printf("�۳˵Ľ��Ϊ%lld", fact);
+		printf("累乘的结果为%lld", fact);
 	}
 	else
-		printf("����������������");
+		printf("请输入大于零的整数");
 }

@@ -1,4 +1,4 @@
-// 计算 e^x 的近似值：x^n/n! 的累加和（泰勒级数展开）
+// 计算 e^x 的近似值：x^n/n! 累加和（泰勒级数展开）
 #define _CRT_SECURE_NO_WARNINGS  1
 #pragma warning(disable:6031)
 #include<stdio.h>
@@ -8,7 +8,7 @@ int jishuangnchujiecheng()
 {
 	int x ,n ,t=0 ;
 	double	shang, count = 0, fenmu, fenzi;
-	printf("������x��ֵ");
+	printf("请输入x的值");
 	scanf("%d",&x);
 	do
 	{ 
@@ -19,5 +19,5 @@ int jishuangnchujiecheng()
 		count = count + shang;
 		t = t + 1;
 	}while (fabs(shang) > pow(10, -4));
-	printf("���Ϊ��%lf", count);
+	printf("结果为：%lf", count);
 }

@@ -14,8 +14,8 @@ void main1()
 	printf("b = % c, c = % c, d = % c, e = % c", b, c, d, e);
 	printf("\"good night\40 \n");
 	printf("/123456");
-	printf("��������%d %d %d ", num1, num2, num3);
-	printf("����������%f,%f", f1, f2);
+	printf("三个整数%d %d %d ", num1, num2, num3);
+	printf("两个浮点数%f,%f", f1, f2);
 	f3 = num1 + num2 + f1 + f2;
-	printf("�����ε��ܳ�Ϊ%f��������λС��%0.2f", f3,f3);
+	printf("长方形的周长为%f，保留两位小数%0.2f", f3,f3);
 }

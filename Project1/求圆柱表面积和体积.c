@@ -9,9 +9,9 @@ double yuandemianji(double r);
 int qiuyuanmianjihebiaomianji()
 {
 	double r, h, s, v, lo, sums;
-	printf("������ԭ���ĵ���뾶");
+	printf("请输入原柱的底面半径");
 	scanf("%lf", &r);
-	printf("�������");
+	printf("请输入高");
 	scanf("%lf", &h);
 	s = yuandemianji(r);
 	v = s * h;

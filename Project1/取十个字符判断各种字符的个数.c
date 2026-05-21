@@ -1,4 +1,4 @@
-// 输入 10 个字符，分类统计大写字母、小写字母、数字和其他字符的个数
+// 输入 10 个字符，分类统计大写字母、小写字母、数字和其他字符个数
 #define _CRT_SECURE_NO_WARNINGS  1
 #pragma warning(disable:6031)
 #include<stdio.h>
@@ -19,6 +19,6 @@ int saincount()
 			oth = oth + 1;
 
 	}
-	printf("��ʮ���ַ��д�д�ַ���%d����Сд�ַ���%d����������%d���������ַ���%d��", big, small, num, oth);
+	printf("这十个字符中大写字符有%d个，小写字符有%d个，数字有%d个，其他字符有%d个", big, small, num, oth);
 
 }

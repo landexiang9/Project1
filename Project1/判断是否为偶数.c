@@ -5,12 +5,12 @@
 int main9()
 {
 	int a, b;
-printf("������һ��������");
+printf("请输入一个整数：");
 scanf("%d", &a);
 if (a % 2 == 0)
-printf("%d��ż��", a);
+printf("%d是偶数", a);
 else
-printf("%d������", a);
+printf("%d是奇数", a);
 return 0;
 
 }

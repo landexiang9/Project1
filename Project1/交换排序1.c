@@ -1,9 +1,9 @@
-// 交换排序：输入 10 个整数，按降序排序并输出
+// 交换排序（降序）：输入 10 个整数排序输出
 #include<stdio.h>
 int jiaohuanpaixu()
 {
 	int a[10], i, j, t;
-	printf("������10��������");
+	printf("请输入10个整数：");
 	for (i = 0; i < 10; i++)
 	{
 		scanf("%d", &a[i]);

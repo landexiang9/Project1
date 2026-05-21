@@ -7,9 +7,9 @@ int main7()
 short b;
 float c;
 double x;
-printf("������a��b=4λ�����Զ���a����λ�����Զ���b\n");
+printf("请输入a，b=4位数字以定义a，两位数字以定义b\n");
 scanf("a,b:%4d%2hd", &a,&b);
-printf("������5λ�����Զ��帡����c����λ������ʵ�ַָ��λ�����Զ���˫���ȸ�����b\n");
+printf("请输入5位数字以定义浮点数c，两位数字以实现分割，两位数字以定义双精度浮点数b\n");
 scanf("%5f,%*d,%6lf", &c, &x);
 printf("a=%d,b=%hd\n",a,b);
 printf("c=%f,x=%lf\n", c, x);

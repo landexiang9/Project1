@@ -6,7 +6,7 @@ void maopaoapixuyinyong()
 	int i, j, t, a[20];
 	for (i = 0; i < 20; i++)
 	{
-		printf("�������%d���ɼ� ", i + 1);
+		printf("请输入第%d个成绩 ", i + 1);
 		scanf("%d", &a[i]);
 
 	}
@@ -16,8 +16,8 @@ void maopaoapixuyinyong()
 			{
 				t = a[j]; a[j] = a[j + 1]; a[j + 1] = t;
 			}
-	printf("\n��߷�Ϊ%d", a[19]);
-	printf("\n��ͷ�Ϊ%d", a[0]);
+	printf("\n最高分为%d", a[19]);
+	printf("\n最低分为%d", a[0]);
 	int sum = 0;
 	double avg;
 	for (i = 0; i < 20; i++)
@@ -26,5 +26,5 @@ void maopaoapixuyinyong()
 
 	}
 	avg = sum / 20.0;
-	printf("\nƽ����Ϊ%.2f", avg);
+	printf("\n平均分为%.2f", avg);
 }

@@ -4,7 +4,7 @@ int nfenziyi()
 {
 	int n, i;
 	double count = 0;
-	printf("������n: ");
+	printf("请输入n: ");
 	scanf("%d", &n);
 	for (i = 1; i <= n; i++)
 	{

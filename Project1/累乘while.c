@@ -6,7 +6,7 @@ double coutcheng(int n)
 {
 	int i = 1;
 	double fact = 1;
-	//printf("�������۳˵Ĵ���");
+	//printf("请输入累乘的次数");
 	//scanf("%d", &n);
 	if (n > 0)
 	{
@@ -15,9 +15,9 @@ double coutcheng(int n)
 			fact = fact * i;
 			i = i + 1;
 		}
-		//printf("�۳˵Ľ��Ϊ%lf", fact);
+		//printf("累乘的结果为%lf", fact);
 	}
 	else
-		//printf("����������������");
+		//printf("请输入大于零的整数");
 	return fact;
 }

@@ -8,9 +8,9 @@ int main6()
 	long b = 32770;
 	printf("a=%+-10d,b=%ld\n", a, b);
 	printf("a=%o,b=%lo\n", a, b);
-	printf("a=%#x��b=%#lx\n", a, b);
+	printf("a=%#x，b=%#lx\n", a, b);
 	printf("a=%d,b=%ld\n", a);
 	printf("a+b=%ld\n", a + b, b);
-	printf("���������\n");
+	printf("输出结束！\n");
 	return 0;
 }
