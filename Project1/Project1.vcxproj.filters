@@ -135,13 +135,22 @@
     <ClCompile Include="交换排序调用.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\HONOR Share\Honor Share\判断单词个数.c">
+    <ClCompile Include="判断单词个数.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\HONOR Share\Honor Share\输入10个整数排序.c">
+    <ClCompile Include="杨辉三角.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\HONOR Share\Honor Share\杨辉三角.c">
+    <ClCompile Include="累加.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="输入10个整数排序.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="访问指针所示变量示例.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="例题8.4.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
