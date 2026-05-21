@@ -1,3 +1,5 @@
+// 从 n 累加到 1：输入一个数，计算 n+(n-1)+...+1
+#include<stdio.h>
 static int leijia()
 {
   int n, count=0 ,s;

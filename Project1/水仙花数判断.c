@@ -1,3 +1,4 @@
+// 判断并输出 100-999 之间的所有水仙花数（阿姆斯特朗数）
 #define _CRT_SECURE_NO_WARNINGS  1
 #pragma warning(disable:6031)
 #include<stdio.h>
@@ -12,10 +13,10 @@ int panduanshuixianhuasu(int a)
 	c = a / 10;
 	a = a - c * 10;
 	
-	if (pow(b, 3) + pow(c, 3) + pow(a, 3)==d)
-		printf("%d��ˮ�ɻ���\n", d);
+	if (b*b*b + c*c*c + a*a*a == d)
+		printf("%d��ˮ�ɻ���\n", d);
 	/*else
-		printf("%d����ˮ�ɻ���", d);*/
+		printf("%d����ˮ�ɻ���", d);*/
 	return 0;
 
 }

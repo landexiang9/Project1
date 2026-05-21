@@ -1,3 +1,4 @@
+// è§£ä¸€å…ƒäºŒæ¬¡æ–¹ç¨‹ axÂ²+bx+c=0ï¼Œæ±‚å®žæ•°æ ¹
 #define _CRT_SECURE_NO_WARNINGS  1
 #pragma warning(disable:6031)
 #include<stdio.h>
@@ -6,21 +7,21 @@ int panduanjie(double a, double b, double c);
 int jieercifc()
 {
 	double a, b, c ,x1 ,x2;
-	printf("ÇëÊäÈë¶þ´Î·½³ÌÖÐaµÄÖµ");
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î·ï¿½ï¿½ï¿½ï¿½ï¿½aï¿½ï¿½Öµ");
 	scanf("%lf", &a);
-	printf("ÇëÊäÈë¶þ´Î·½³ÌÖÐbµÄÖµ");
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î·ï¿½ï¿½ï¿½ï¿½ï¿½bï¿½ï¿½Öµ");
 	scanf("%lf", &b);
-	printf("ÇëÊäÈë¶þ´Î·½³ÌÖÐcµÄÖµ");
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î·ï¿½ï¿½ï¿½ï¿½ï¿½cï¿½ï¿½Öµ");
 	scanf("%lf", &c);
 	if (panduanjie(a, b, c))
 	{
 		x1 = (-b + pow(b * b - 4 * a * c, 0.5)) / (2 * a);
 		x2 = (-b - pow(b * b - 4 * a * c, 0.5)) / (2 * a);
-		printf("·½³Ì%.0lfx^2+%.0lfx+%.0lfµÄ½âÎª", a, b, c);
+		printf("ï¿½ï¿½ï¿½ï¿½%.0lfx^2+%.0lfx+%.0lfï¿½Ä½ï¿½Îª", a, b, c);
 		printf("\nx1=%lf \nx2=%lf", x1, x2);
 	}
 	else
-		printf("¸Ã·½³ÌÎÞÊµ¸ù");
+		printf("ï¿½Ã·ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½");
 
 }
 int panduanjie(double a, double b, double c)

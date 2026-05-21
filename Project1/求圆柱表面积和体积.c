@@ -1,13 +1,17 @@
 #define _CRT_SECURE_NO_WARNINGS  1
 #pragma warning(disable:6031)
+// è®¡ç®—åœ†æŸ±ä½“çš„è¡¨é¢ç§¯å’Œä½“ç§¯
 #define PEI 3.1415926
+#include<stdio.h>
+
+double yuandemianji(double r);
 
 int qiuyuanmianjihebiaomianji()
 {
 	double r, h, s, v, lo, sums;
-	printf("ÇëÊäÈëÔ­ÖùµÄµ×Ãæ°ë¾¶");
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô­ï¿½ï¿½ï¿½Äµï¿½ï¿½ï¿½ë¾¶");
 	scanf("%lf", &r);
-	printf("ÇëÊäÈë¸ß");
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 	scanf("%lf", &h);
 	s = yuandemianji(r);
 	v = s * h;

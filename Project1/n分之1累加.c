@@ -1,8 +1,10 @@
+// è®¡ç®—è°ƒå’Œçº§æ•°ï¼š1 + 1/2 + 1/3 + ... + 1/n
+#include<stdio.h>
 int nfenziyi()
 {
 	int n, i;
 	double count = 0;
-	printf("ÇëÊäÈën: ");
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½n: ");
 	scanf("%d", &n);
 	for (i = 1; i <= n; i++)
 	{

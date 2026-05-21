@@ -1,11 +1,13 @@
 #define _CRT_SECURE_NO_WARNINGS  1
 #pragma warning(disable:6031)
+// 判断回文串：输入一个字符串，判断是否为回文（正反相同）
 #include<string.h>
+#include<stdio.h>
 void panduanhuiwenchuang()
 {
 	int a,t,n;
 	char c1[50], c2[50];
-	printf("������һ���ַ���");
+	printf("������һ���ַ���");
 	a=gets(c1);
 	n = strlen(c1)-1;
 	for (t = 0; n>= 0; n--)

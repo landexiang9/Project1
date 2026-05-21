@@ -1,15 +1,16 @@
+// åˆ¤æ–­ä¸€ä¸ªæ•´æ•°æ˜¯å¦ä¸ºå¶æ•°
 #define _CRT_SECURE_NO_WARNINGS  1
 #pragma warning(disable:6031)
 #include<stdio.h>
 int main9()
 {
 	int a, b;
-printf("ÇëÊäÈëÒ»¸öÕûÊı£º");
+printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 scanf("%d", &a);
 if (a % 2 == 0)
-printf("%dÊÇÅ¼Êı", a);
+printf("%dï¿½ï¿½Å¼ï¿½ï¿½", a);
 else
-printf("%dÊÇÆæÊı", a);
+printf("%dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½", a);
 return 0;
 
 }

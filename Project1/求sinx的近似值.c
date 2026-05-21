@@ -1,8 +1,9 @@
+// 计算 sin(x) 的近似值（泰勒级数展开）
 #define _CRT_SECURE_NO_WARNINGS  1
 #pragma warning(disable:6031)
 #include<stdio.h>
 #include<math.h>
-double jiecheng(t)
+double jiecheng(double t)
 {
 	double count=1,i;
 	for (i = t; i > 0; i = i - 1)

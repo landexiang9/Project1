@@ -1,3 +1,4 @@
+// 输入 10 个整数，冒泡排序后输出结果
 #include <stdio.h>
 #define _CRT_SECURE_NO_WARNINGS  1
 

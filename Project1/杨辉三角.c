@@ -1,3 +1,4 @@
+// 打印杨辉三角（帕斯卡三角形），6 行
 #include <stdio.h>
 
 int yanghuishanjiao()

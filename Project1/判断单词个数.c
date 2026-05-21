@@ -1,9 +1,10 @@
+// åˆ¤æ–­ä¸€ä¸ªå­—ç¬¦ä¸²ä¸­çš„å•è¯ä¸ªæ•°ï¼ˆä»¥ç©ºæ ¼åˆ†éš”ï¼‰
 #include<stdio.h>
 void panduandancigeshu()
 {
 	char str[100];
 	int i, count = 0;
-	printf("ÇëÊäÈëÒ»¸ö×Ö·û´®: ");
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½: ");
 	gets(str);
 	for (i = 0; str[i] != '\0'; i++)
 	{
@@ -16,5 +17,5 @@ void panduandancigeshu()
 	{
 		count++;
 	}
-	printf("µ¥´ÊµÄ¸öÊıÎª: %d\n", count);
+	printf("ï¿½ï¿½ï¿½ÊµÄ¸ï¿½ï¿½ï¿½Îª: %d\n", count);
 }

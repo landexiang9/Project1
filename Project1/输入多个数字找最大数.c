@@ -1,3 +1,4 @@
+// è¾“å…¥ 10 ä¸ªæ•°å­—ï¼Œæ‰¾å‡ºå…¶ä¸­çš„æœ€å¤§å€¼
 #define _CRT_SECURE_NO_WARNINGS  1
 #pragma warning(disable:6031)
 #include<stdio.h>
@@ -5,16 +6,16 @@ int max()
 {
 	int i=2;
 	float a, b,max;
-	printf("ÇëÊäÈëµÚÒ»¸öÊý£º");
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 	scanf("%f", &a);
 	max = a;
 	for(;i<=10;i=i+1)
 	{
-		printf("ÇëÊäÈëµÚ%d¸öÊý", i);
+		printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%dï¿½ï¿½ï¿½ï¿½", i);
 		scanf("%f", &b);
 		if (b > max)
 			max = b;
 	}
-	printf("×î´óµÄÊýÎª%f", max);
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îª%f", max);
 
 }

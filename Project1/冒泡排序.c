@@ -1,11 +1,13 @@
 #define _CRT_SECURE_NO_WARNINGS  1
+// å†’æ³¡æ’åºï¼šè¾“å…¥ 10 ä¸ªæ•´æ•°ï¼ŒæŒ‰å‡åºæ’åº
 #pragma warning(disable:6031)
+#include<stdio.h>
 void maopaoapixu()
 {
 	int i, j, t, a[10];
 	for (i = 0; i < 10; i++)
 	{
-		printf("ÇëÊäÈëµÚ%d¸ö³É¼¨", i + 1);
+		printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%dï¿½ï¿½ï¿½É¼ï¿½", i + 1);
 		scanf("%d", &a[i]);
 
 	}

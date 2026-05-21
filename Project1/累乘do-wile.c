@@ -1,3 +1,4 @@
+// è®¡ç®— n çš„é˜¶ä¹˜ï¼ˆdo-while å¾ªçŽ¯å®žçŽ°ï¼‰
 #define _CRT_SECURE_NO_WARNINGS  1
 #pragma warning(disable:6031)
 #include<stdio.h>
@@ -5,7 +6,7 @@ int docoutcheng()
 {
 	int n = 0, i = 1;
 	long long fact = 1;
-	printf("ÇëÊäÈëÀÛ³ËµÄ´ÎÊý");
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û³ËµÄ´ï¿½ï¿½ï¿½");
 	scanf("%d", &n);
 	if (n > 0)
 	{
@@ -15,8 +16,8 @@ int docoutcheng()
 			i = i + 1;
 		}
 		while (i <= n);
-		printf("ÀÛ³ËµÄ½á¹ûÎª%lld", fact);
+		printf("ï¿½Û³ËµÄ½ï¿½ï¿½Îª%lld", fact);
 	}
 	else
-		printf("ÇëÊäÈë´óÓÚÁãµÄÕûÊý");
+		printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 }

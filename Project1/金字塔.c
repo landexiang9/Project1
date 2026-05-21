@@ -1,3 +1,5 @@
+// 打印星号金字塔：输入行数 n，输出 n 层等腰三角形图案
+#include<stdio.h>
 int jingzita()
 {
 	int n ,i ,j,k;

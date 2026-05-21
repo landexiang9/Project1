@@ -1,11 +1,12 @@
+// è¾“å…¥ 10 ä¸ªå­—ç¬¦ï¼Œåˆ†ç±»ç»Ÿè®¡å¤§å†™å­—æ¯ã€å°å†™å­—æ¯ã€æ•°å­—å’Œå…¶ä»–å­—ç¬¦çš„ä¸ªæ•°
 #define _CRT_SECURE_NO_WARNINGS  1
 #pragma warning(disable:6031)
-#include<stdio.h>;
+#include<stdio.h>
 int saincount()
 {
 	int big=0, small=0,num=0, oth=0, i=0;
 	char ch;
-	for (; i <= 10; i++)
+	for (; i < 10; i++)
 	{
 		ch = getchar();
 		if (ch >= 'A' && ch <= 'Z')
@@ -18,6 +19,6 @@ int saincount()
 			oth = oth + 1;
 
 	}
-	printf("ÕâÊ®¸ö×Ö·ûÖĞ´óĞ´×Ö·ûÓĞ%d¸ö£¬Ğ¡Ğ´×Ö·ûÓĞ%d¸ö£¬Êı×ÖÓĞ%d¸ö£¬ÆäËû×Ö·ûÓĞ%d¸ö", big, small, num, oth);
+	printf("ï¿½ï¿½Ê®ï¿½ï¿½ï¿½Ö·ï¿½ï¿½Ğ´ï¿½Ğ´ï¿½Ö·ï¿½ï¿½ï¿½%dï¿½ï¿½ï¿½ï¿½Ğ¡Ğ´ï¿½Ö·ï¿½ï¿½ï¿½%dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½%dï¿½ï¿½", big, small, num, oth);
 
 }

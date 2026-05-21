@@ -1,11 +1,14 @@
+// è®¡ç®— e^x çš„è¿‘ä¼¼å€¼ï¼šx^n/n! çš„ç´¯åŠ å’Œï¼ˆæ³°å‹’çº§æ•°å±•å¼€ï¼‰
 #define _CRT_SECURE_NO_WARNINGS  1
 #pragma warning(disable:6031)
+#include<stdio.h>
+#include<math.h>
 double coutcheng(int n);
 int jishuangnchujiecheng()
 {
 	int x ,n ,t=0 ;
 	double	shang, count = 0, fenmu, fenzi;
-	printf("ÇëÊäÈëxµÄÖµ");
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½ï¿½Öµ");
 	scanf("%d",&x);
 	do
 	{ 
@@ -16,5 +19,5 @@ int jishuangnchujiecheng()
 		count = count + shang;
 		t = t + 1;
 	}while (fabs(shang) > pow(10, -4));
-	printf("½á¹ûÎª£º%lf", count);
+	printf("ï¿½ï¿½ï¿½Îªï¿½ï¿½%lf", count);
 }

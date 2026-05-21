@@ -1,3 +1,4 @@
+// 逻辑运算符演示：!、&&、|| 的运算规则与短路求值
 #define _CRT_SECURE_NO_WARNINGS  1
 #pragma warning(disable:6031)
 #include<stdio.h>

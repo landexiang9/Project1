@@ -1,3 +1,4 @@
+// scanf 鏍煎紡璇存槑绗︿笌杈撳叆瀹藉害闄愬畾婕旂ず
 #define _CRT_SECURE_NO_WARNINGS  1
 #pragma warning(disable:6031)
 #include<stdio.h>
@@ -6,10 +7,11 @@ int main7()
 short b;
 float c;
 double x;
-printf("请输入a，b=4位数字以定义a，两位数字以定义b\n");
+printf("锟斤拷锟斤拷锟斤拷a锟斤拷b=4位锟斤拷锟斤拷锟皆讹拷锟斤拷a锟斤拷锟斤拷位锟斤拷锟斤拷锟皆讹拷锟斤拷b\n");
 scanf("a,b:%4d%2hd", &a,&b);
-printf("请输入5位数字以定义浮点数c，两位数字以实现分割，两位数字以定义双精度浮点数b\n");
+printf("锟斤拷锟斤拷锟斤拷5位锟斤拷锟斤拷锟皆讹拷锟藉浮锟斤拷锟斤拷c锟斤拷锟斤拷位锟斤拷锟斤拷锟斤拷实锟街分割，锟斤拷位锟斤拷锟斤拷锟皆讹拷锟斤拷双锟斤拷锟饺革拷锟斤拷锟斤拷b\n");
 scanf("%5f,%*d,%6lf", &c, &x);
 printf("a=%d,b=%hd\n",a,b);
 printf("c=%f,x=%lf\n", c, x);
+return 0;
 }

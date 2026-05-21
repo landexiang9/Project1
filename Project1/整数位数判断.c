@@ -1,3 +1,4 @@
+// åˆ¤æ–­ä¸€ä¸ªæ•´æ•°çš„ä½æ•°ï¼ˆä½¿ç”¨ do-whileã€whileã€for å››ç§å¾ªç¯å®ç°ï¼‰
 #define _CRT_SECURE_NO_WARNINGS  1
 #pragma warning(disable:6031)
 #include<stdio.h>
@@ -15,7 +16,7 @@ int numsize()
 		n = n / 10;
 		count = count + 1;
 	} while (n != 0);
-	printf("ÕûÊı %dÎª%d Î»ÕûÊı",m,count);
+	printf("ï¿½ï¿½ï¿½ï¿½ %ldÎª%d Î»ï¿½ï¿½ï¿½ï¿½",m,count);
 
 }
 
@@ -34,7 +35,7 @@ int whilenumsize()
 		n = n / 10;
 		count = count + 1;
 	}
-	printf("ÕûÊı %dÎª%d Î»ÕûÊı", m, count);
+	printf("ï¿½ï¿½ï¿½ï¿½ %ldÎª%d Î»ï¿½ï¿½ï¿½ï¿½", m, count);
 
 }
 
@@ -53,7 +54,7 @@ int fornumsize()
 		n = n / 10;
 		count = count + 1;
 		}
-	printf("ÕûÊı %dÎª%d Î»ÕûÊı", m, count);
+	printf("ï¿½ï¿½ï¿½ï¿½ %ldÎª%d Î»ï¿½ï¿½ï¿½ï¿½", m, count);
 
 }
 int lennumsize()
@@ -67,6 +68,6 @@ int lennumsize()
 	if (n < 0)
 		n = -n;
 	
-	printf("ÕûÊı %dÎª%d Î»ÕûÊı", m, count);
+	printf("ï¿½ï¿½ï¿½ï¿½ %ldÎª%d Î»ï¿½ï¿½ï¿½ï¿½", m, count);
 
 }

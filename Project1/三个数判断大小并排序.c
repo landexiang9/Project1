@@ -1,3 +1,4 @@
+// 输入三个浮点数，判断大小并按升序排序输出
 #define _CRT_SECURE_NO_WARNINGS  1
 #pragma warning(disable:6031)
 #include<stdio.h>
@@ -7,7 +8,7 @@ int main10()
 	scanf("%f,%f,%f", &a, &b, &c);
 	if (a>b)
 	{
-		t = a; a = c; c = t;
+		t = a; a = b; b = t;
 	}
 	if  (a>c)
 	{

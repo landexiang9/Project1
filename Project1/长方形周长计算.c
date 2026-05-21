@@ -1,3 +1,4 @@
+// é•¿æ–¹å½¢å‘¨é•¿è®¡ç®—ä¸Žè½¬ä¹‰å­—ç¬¦æ¼”ç¤º
 #define _CRT_SECURE_NO_WARNINGS  1
 #pragma warning(disable:6031)
 #include <stdio.h>
@@ -13,8 +14,8 @@ void main1()
 	printf("b = % c, c = % c, d = % c, e = % c", b, c, d, e);
 	printf("\"good night\40 \n");
 	printf("/123456");
-	printf("Èý¸öÕûÊý%d %d %d ", num1, num2, num3);
-	printf("Á½¸ö¸¡µãÊý%f,%f", f1, f2);
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%d %d %d ", num1, num2, num3);
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%f,%f", f1, f2);
 	f3 = num1 + num2 + f1 + f2;
-	printf("³¤·½ÐÎµÄÖÜ³¤Îª%f£¬±£ÁôÁ½Î»Ð¡Êý%0.2f", f3,f3);
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½Îµï¿½ï¿½Ü³ï¿½Îª%fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»Ð¡ï¿½ï¿½%0.2f", f3,f3);
 }

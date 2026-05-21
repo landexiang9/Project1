@@ -1,3 +1,4 @@
+// 找出 100 以内能被 7 整除的数，每行输出 5 个
 #define _CRT_SECURE_NO_WARNINGS  1
 #pragma warning(disable:6031)
 #include<stdio.h>

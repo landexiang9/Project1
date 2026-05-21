@@ -1,3 +1,4 @@
+// è¾“å…¥ 20 ä¸ªæˆç»©ï¼Œå†’æ³¡æ’åºåè¾“å‡ºæœ€é«˜åˆ†ã€æœ€ä½åˆ†å’Œå¹³å‡åˆ†
 #define _CRT_SECURE_NO_WARNINGS  1
 #pragma warning(disable:6031)
 void maopaoapixuyinyong()
@@ -5,7 +6,7 @@ void maopaoapixuyinyong()
 	int i, j, t, a[20];
 	for (i = 0; i < 20; i++)
 	{
-		printf("ÇëÊäÈëµÚ%d¸ö³É¼¨ ", i + 1);
+		printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%dï¿½ï¿½ï¿½É¼ï¿½ ", i + 1);
 		scanf("%d", &a[i]);
 
 	}
@@ -15,14 +16,15 @@ void maopaoapixuyinyong()
 			{
 				t = a[j]; a[j] = a[j + 1]; a[j + 1] = t;
 			}
-	printf("\n×î¸ß·ÖÎª%d", a[19]);
-	printf("\n×îµÍ·ÖÎª%d", a[0]);
-	int sum = 0, avg;
+	printf("\nï¿½ï¿½ß·ï¿½Îª%d", a[19]);
+	printf("\nï¿½ï¿½Í·ï¿½Îª%d", a[0]);
+	int sum = 0;
+	double avg;
 	for (i = 0; i < 20; i++)
 	{
 		sum = sum + a[i];
 
 	}
-	avg = sum / 20;
-	printf("\nÆ½¾ù·ÖÎª%d", avg);
+	avg = sum / 20.0;
+	printf("\nÆ½ï¿½ï¿½ï¿½ï¿½Îª%.2f", avg);
 }

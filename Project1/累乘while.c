@@ -1,3 +1,4 @@
+// è®¡ç®— n çš„é˜¶ä¹˜ï¼ˆwhile å¾ªç¯å®ç°ï¼‰
 #define _CRT_SECURE_NO_WARNINGS  1
 #pragma warning(disable:6031)
 #include<stdio.h>
@@ -5,7 +6,7 @@ double coutcheng(int n)
 {
 	int i = 1;
 	double fact = 1;
-	//printf("ÇëÊäÈëÀÛ³ËµÄ´ÎÊı");
+	//printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û³ËµÄ´ï¿½ï¿½ï¿½");
 	//scanf("%d", &n);
 	if (n > 0)
 	{
@@ -14,9 +15,9 @@ double coutcheng(int n)
 			fact = fact * i;
 			i = i + 1;
 		}
-		//printf("ÀÛ³ËµÄ½á¹ûÎª%lf", fact);
+		//printf("ï¿½Û³ËµÄ½ï¿½ï¿½Îª%lf", fact);
 	}
 	else
-		//printf("ÇëÊäÈë´óÓÚÁãµÄÕûÊı");
+		//printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 	return fact;
 }
