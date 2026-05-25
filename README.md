@@ -1,14 +1,16 @@
 # C语言编程练习项目
 
-一个 C 语言入门学习项目，包含 **46 个**独立的 C 源程序，涵盖了 C 语言基础语法、算法和经典编程问题。
+一个 C 语言入门学习项目，包含 **50 个**独立的 C 源程序，涵盖了 C 语言基础语法、算法和经典编程问题。
 
 ## 项目结构
 
 ```
 Project1/
-├── main.c                    # 主入口（切换调用各练习函数）
+├── main.c                    # 主入口（调用 shichuyigeshudejueduizhi）
 ├── Project1.vcxproj          # Visual Studio 2022 项目文件
-└── *.c                       # 46 个练习程序
+├── *.c                       # 50 个练习程序
+├── 笔记.md                   # 完整 C 语言学习笔记（1754 行）
+└── note_split/               # 按主题拆分的笔记文件（8 个）
 ```
 
 ## 内容分类
@@ -23,15 +25,43 @@ Project1/
 | **字符串/字符** | 判断单词个数、字符分类统计、字符转大写 |
 | **C语言基础语法示例** | printf/scanf 格式演示、运算符优先级、类型转换、逻辑运算 |
 
+## 学习笔记
+
+完整笔记：`笔记.md`（单文件，1754 行）
+
+按主题拆分（使用更方便，访问更快）：
+
+| 文件 | 内容 |
+|------|------|
+| `note_split/00_前言与目录.md` | 前言、目录 |
+| `note_split/01_基础语法.md` | 程序结构、注释、预处理、数据类型、变量、常量、运算符、I/O、分支、循环 |
+| `note_split/02_数组与字符串.md` | 一维/二维数组、字符数组、字符串处理 |
+| `note_split/03_函数.md` | 函数定义、声明、参数传递 |
+| `note_split/04_指针.md` | 指针声明、解引用、数组名与指针、NULL |
+| `note_split/05_标准库函数.md` | math.h、stdio.h、string.h 常用函数 |
+| `note_split/06_经典算法.md` | 排序、查找、递推、数学问题、图形输出、指针应用 |
+| `note_split/07_附录.md` | ASCII 表、运算符优先级、编译指南 |
+
 ## 运行方式
 
-使用 **Visual Studio 2022** 打开 `Project1.sln` 或 `Project1.vcxproj`，编译运行即可。
+### Windows（Visual Studio 2022）
+
+打开 `Project1.sln` 或 `Project1.vcxproj`，编译运行即可。
 
 切换要执行的函数：修改 `main.c` 中调用的函数名。
 
+### Linux（gcc）
+
+```bash
+cd Project1
+gcc -o project1 -std=gnu99 $(find Project1 -name '*.c' | sort) -lm
+echo "-5" | ./project1  # 测试
+```
+
+> 使用 `-std=gnu99` 支持 `//` 注释和 `gets` 函数，`-lm` 链接数学库。
+
 ## 开发环境
 
-- IDE: Visual Studio 2022 (v143)
-- 语言标准: MSVC C
-- 子系统: 控制台应用程序
+- IDE: Visual Studio 2022 (v143) / gcc 15.2.0
+- 语言标准: MSVC C / GNU99
 - 无外部依赖，仅使用 C 标准库
