@@ -15,6 +15,6 @@ int shichuyigeshudejueduizhi();
 int main()
 {
 	/* 调用统计单词个数的函数 */
-	shichuyigeshudejueduizhi();
+	jeigouyuanshudezhizhengchuandi();
 	return 0;
 }

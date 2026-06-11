@@ -156,5 +156,11 @@
     <ClCompile Include="输出一个数的绝对值.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="求数组中的最大值，通过指针实现.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="结构数组元素的地址作为实参传递.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

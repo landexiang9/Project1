@@ -146,7 +146,9 @@
     <ClCompile Include="例题8.4.c" />
     <ClCompile Include="判断单词个数.c" />
     <ClCompile Include="杨辉三角.c" />
+    <ClCompile Include="求数组中的最大值，通过指针实现.c" />
     <ClCompile Include="累加.c" />
+    <ClCompile Include="结构数组元素的地址作为实参传递.c" />
     <ClCompile Include="访问指针所示变量示例.c" />
     <ClCompile Include="输入10个整数排序.c" />
     <ClCompile Include="main.c" />
