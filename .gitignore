@@ -365,3 +365,6 @@ FodyWeavers.xsd
 # opencode configuration
 opencode.json
 opencode*.json
+
+# git commit script
+git-commit.ps1
