@@ -43,7 +43,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -145,6 +145,7 @@
   <ItemGroup>
     <ClCompile Include="例题8.4.c" />
     <ClCompile Include="判断单词个数.c" />
+    <ClCompile Include="成绩查找系统.c" />
     <ClCompile Include="杨辉三角.c" />
     <ClCompile Include="累加.c" />
     <ClCompile Include="访问指针所示变量示例.c" />

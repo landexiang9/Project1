@@ -7,14 +7,19 @@
 #define _CRT_SECURE_NO_WARNINGS  1
 #pragma warning(disable:6031)
 #include <stdio.h>
-#include<math.h>
+#include <math.h>
+#include <windows.h>
 
 /* 前向声明：声明在判断单词个数.c 中定义的函数 */
-int shichuyigeshudejueduizhi();
+int  maopaoapixuyinyong();
 
 int main()
 {
+	// 设置控制台输入和输出编码为 UTF-8，防止中文乱码
+	SetConsoleOutputCP(65001);
+	SetConsoleCP(65001);
+
 	/* 调用统计单词个数的函数 */
-	shichuyigeshudejueduizhi();
+	panduandancigeshu();
 	return 0;
 }

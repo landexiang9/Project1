@@ -7,7 +7,7 @@
 #include <stdio.h>
 #define _CRT_SECURE_NO_WARNINGS  1
 
-static void maopaoapixuyinyong()
+void maopaoapixuyinyong2()
 {
     int i, j, t, a[10];         /* a: 存储数组，t: 交换临时变量 */
     /* 读取 10 个整数 */
