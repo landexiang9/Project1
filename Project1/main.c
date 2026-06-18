@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 程序主入口
  * 本文件是项目的入口点，main 函数调用不同练习函数来演示各 C 语言知识点。
  * 当前配置直接调用判断单词个数的函数 panduandancigeshu()。
@@ -8,13 +8,17 @@
 #pragma warning(disable:6031)
 #include <stdio.h>
 #include<math.h>
+#include<stdlib.h>
 
 /* 前向声明：声明在判断单词个数.c 中定义的函数 */
-int shichuyigeshudejueduizhi();
+void zhizhenpanduandancigeshu();
+
 
 int main()
 {
+	SetConsoleOutputCP(65001);
+    SetConsoleCP(65001);
 	/* 调用统计单词个数的函数 */
-	jeigouyuanshudezhizhengchuandi();
+	gaunlixitong();
 	return 0;
 }

@@ -43,7 +43,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -143,10 +143,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="fsecanf的调用.c" />
+    <ClCompile Include="使用指针交换数组的前后顺序.c" />
+    <ClCompile Include="使用指针判断单词个数.c" />
+    <ClCompile Include="使用指针进行冒泡排序.c" />
     <ClCompile Include="例题8.4.c" />
     <ClCompile Include="判断单词个数.c" />
+    <ClCompile Include="字符方式读写莫个文件.c" />
+    <ClCompile Include="学生成绩管理系统.c" />
     <ClCompile Include="成绩查找系统.c" />
+    <ClCompile Include="数字金字塔.c" />
+    <ClCompile Include="斐波那契数列.c" />
     <ClCompile Include="杨辉三角.c" />
+    <ClCompile Include="求一个数的最大公约数和最小公倍速.c" />
     <ClCompile Include="求数组中的最大值，通过指针实现.c" />
     <ClCompile Include="累加.c" />
     <ClCompile Include="结构数组元素的地址作为实参传递.c" />
@@ -171,6 +180,7 @@
     <ClCompile Include="累加1.c" />
     <ClCompile Include="解二次方程.c" />
     <ClCompile Include="计算x的n次方除以n的阶乘之和.c" />
+    <ClCompile Include="输入三个数求总分和平均值.c" />
     <ClCompile Include="输入二十个成绩并排序.c" />
     <ClCompile Include="输入多个值并将其按大小排序并输出.c" />
     <ClCompile Include="输出一个数的绝对值.c" />

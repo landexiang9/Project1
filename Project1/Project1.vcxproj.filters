@@ -159,5 +159,41 @@
     <ClCompile Include="成绩查找系统.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="求数组中的最大值，通过指针实现.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="结构数组元素的地址作为实参传递.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="字符方式读写莫个文件.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fsecanf的调用.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="斐波那契数列.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="求一个数的最大公约数和最小公倍速.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数字金字塔.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="输入三个数求总分和平均值.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="使用指针交换数组的前后顺序.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="使用指针进行冒泡排序.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="使用指针判断单词个数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="学生成绩管理系统.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
